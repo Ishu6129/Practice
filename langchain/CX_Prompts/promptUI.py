@@ -1,5 +1,4 @@
 from dotenv import load_dotenv
-from regex import template
 import streamlit as st
 from langchain_google_genai import GoogleGenerativeAI
 from langchain_core.prompts import PromptTemplate,load_prompt
