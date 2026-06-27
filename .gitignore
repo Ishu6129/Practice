@@ -3,3 +3,6 @@ hf_cache
 **/.venv/
 venv/
 **/venv/
+
+.env
+*.env
