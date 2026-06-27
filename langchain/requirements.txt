@@ -27,3 +27,4 @@ scikit-learn
 
 torch
 protobuf
+sentence-transformers
