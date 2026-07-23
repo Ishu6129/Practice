@@ -6,6 +6,8 @@ from langgraph.checkpoint.sqlite import SqliteSaver
 from langgraph.graph.message import add_messages
 from dotenv import load_dotenv
 import sqlite3
+import  os
+os.environ["LANGSMITH_PROJECT"]="chatbot_sqllite"
 
 load_dotenv()
 
